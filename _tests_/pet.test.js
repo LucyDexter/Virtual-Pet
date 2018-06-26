@@ -22,7 +22,7 @@ describe('constructor', () => {
     });
 });
 
-dexcribe('growUp', () => {
+describe('growUp', () => {
     it('increments the age by 1', () => {
         const pet = new Pet('Fido');
         pet.growUp();
